@@ -5,7 +5,9 @@
             [clojure-euler.exercise-004 :refer :all]
             [clojure-euler.exercise-005 :refer :all]
             [clojure-euler.exercise-006 :refer :all]
-            [clojure-euler.exercise-007 :refer :all])
+            [clojure-euler.exercise-007 :refer :all]
+            [clojure-euler.exercise-008 :refer :all]
+            [clojure-euler.exercise-009 :refer :all])
   (:gen-class))
 
 
