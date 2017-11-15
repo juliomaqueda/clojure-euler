@@ -13,9 +13,3 @@
         num-divisors #(int (/ limit %))
         sum-divisors #(* % (sum-1n (num-divisors %)))]
     (- (+ (sum-divisors 3) (sum-divisors 5)) (sum-divisors 15))))
-
-
-(defn euler-001-loop [limit]
-  (->> (range limit)
-       (filter #(or (zero? (mod % 3)) (zero? (mod % 5))))
-       (reduce +)))
